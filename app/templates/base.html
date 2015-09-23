@@ -20,8 +20,8 @@
 -->
 
 <head profile="http://gmpg.org/xfn/11">
-  {% if event_title %}
-  <title>{{ event_title }} | Karunya University</title>
+  {% if title %}
+  <title>{{ title }} | Karunya University</title>
   {% else %}
   <title>Live Streams | Karunya University</title>
   {% endif %}
@@ -95,7 +95,19 @@
       <br class="clear" />
     </div>
   </div>
+  <div class="wrapper col3" style="width:960px;margin:auto;">
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <center>
+        {% for message in messages %}
+            {{ message }} <br />
+        {% endfor %}
+        </center>
+        <br />
+      {% endif %}
+    {% endwith %}
   {% block content %}{% endblock %}
+  </div>
   <br />
   <script src="//kws.karunya.edu/min/g=admissions_footer_js"></script>
   <div class="wrapper col5">
