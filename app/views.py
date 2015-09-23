@@ -1,5 +1,5 @@
 from flask import render_template, flash, redirect, url_for, abort, request, session
-from app import app
+from app import app, admin
 from app.models import User
 from .forms import LoginForm
 from flask.ext.login import login_user , logout_user , current_user , login_required
@@ -41,6 +41,8 @@ def logout():
 @login_required
 def settings():
     return 'Secret View'
+
+
 
 
 
