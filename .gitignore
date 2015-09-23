@@ -1,0 +1,48 @@
+# Mac OS X custom attribute files
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+_mailinglist
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# coverage files
+*.coverage
+htmlcov
+cover
+.tox
+.cache
+nosetests.xml
+coverage.xml
+
+# database files
+*.sqlite
+
+# virtualenv environments
+venv/
+env*/
+env
+
+# Sphinx documentation
+docs/_build/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
