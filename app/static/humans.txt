@@ -1,0 +1,33 @@
+﻿/* TEAM */
+	Chef: Vinodh Ewards
+	Contact: ewards [at] karunya [dot] edu
+	Twitter: @ewards
+	From: Coimbatore, Tamil Nadu, India
+
+	UI developer: Vinodh Ewards
+	Contact: ewards [at] karunya [dot] edu
+	Twitter: @ewards
+	From: Coimbatore, Tamil Nadu, India
+
+	Graphics: Sachin George Thomas
+	Contact: sachq [at] gmail [dot] com
+	Twitter: @sachq1
+
+	Web dev: Binoj D
+	Contact: dbinoj [at] gmail [dot] com
+	Twitter: @dbinoj
+	From: Trichy, Tamil Nadu, India
+
+/* THANKS */
+
+	Photos by: Sachin George Thomas (@sachq1), Jithin NT (http://fb.me/), Christy Deva Manohar (http://fb.me/chriss4uuu), 
+	Jeffy Mathew Philip (http://fb.me/jeffymphilip02), Ashfin Francis (http://fb.me/Ashfin88)
+	
+	Videos by: Abin Prakash (http://fb.me/king.prakashfirst), Ashfin Francis (http://fb.me/Ashfin88)
+
+/* SITE */
+	Last design update: 2013/04/03
+	Language: English
+	Doctype: HTML5
+	IDE: Atom, Vim, Adobe Photoshop
+    Tech: Python, MySQL, CentOS
