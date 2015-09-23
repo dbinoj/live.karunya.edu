@@ -1,0 +1,4 @@
+WTF_CSRF_ENABLED = True
+SECRET_KEY = 'change-me-in-production'
+SESSION_COOKIE_NAME = 'karunya-live-lindt'
+
