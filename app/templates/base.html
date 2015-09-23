@@ -72,6 +72,9 @@
           <a href="//www.karunya.edu/">
             Karunya University
           </a>
+          {% if current_user.is_authenticated %}
+          | <a href="{{ url_for('logout') }}">Logout</a>
+          {% endif %}
         </li>
       </ul>
       <br class="clear" />
