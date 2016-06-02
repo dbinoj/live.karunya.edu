@@ -5,5 +5,5 @@ WTF_CSRF_ENABLED = True
 SECRET_KEY = 'change-me-in-production'
 SESSION_COOKIE_NAME = 'karunya-live-lindt'
 
-SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'app.db')
+SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'data.db')
 SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
