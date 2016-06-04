@@ -15,10 +15,11 @@ class User(UserMixin, db.Model):
     # TODO: Fix it.
     #date_created  = db.Column(db.DateTime, default=datetime.datetime.utcnow)
     #date_modified = db.Column(db.DateTime, default=datetime.datetime.utcnow, onupdate=datetime.datetime.utcnow)
-    
-    def __init__(self, username, password, email):
+
+    def __init__(self, username, password, realname, email):
         self.username = username
         self.password = hash_password(password)
+        self.realname = realname
         self.email = email
 
     def __repr__(self):
@@ -41,6 +42,6 @@ class Event(db.Model):
     #date_created  = db.Column(db.DateTime,  default=db.func.current_timestamp())
     #date_modified = db.Column(db.DateTime,  default=db.func.current_timestamp(),
     #                                       onupdate=db.func.current_timestamp())
-    
+
     def __repr__(self):
         return '<Event %r>' % (self.body)
