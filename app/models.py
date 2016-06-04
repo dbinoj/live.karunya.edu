@@ -34,6 +34,7 @@ def load_user(id):
 class Event(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(255), index=True)
+    slug = db.Column(db.String(255), index=True)
     begin = db.Column(db.DateTime)
     end = db.Column(db.DateTime)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
