@@ -15,4 +15,7 @@ class EventAdmin(ModelView):
         # redirect to login page if user doesn't have access
         return redirect(url_for('login', next=request.url))
 
+    def on_model_change(self, form, instance):
+        pass
+
 admin.add_view(EventAdmin(Event, db.session))
