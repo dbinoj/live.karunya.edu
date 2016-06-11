@@ -1,6 +1,6 @@
 from flask import render_template, flash, redirect, url_for, abort, request, session
 from app import app, admin
-from app.models import User
+from app.models import User, Event
 from .forms import LoginForm
 from flask.ext.login import login_user , logout_user , current_user , login_required
 from sqlalchemy import func
